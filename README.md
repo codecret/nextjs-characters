@@ -1,5 +1,7 @@
 # Rick and Morty Character Listing and Filtering
 
+![Video](/video.mp4)
+
 This project allows users to list and filter characters from the [Rick and Morty API](https://rickandmortyapi.com). Characters can be filtered by **status** and **gender**, with the filters working together. For example, you can select "alive" and "male" to view only male characters who are alive.
 
 ## Technologies Used
