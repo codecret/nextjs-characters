@@ -8,7 +8,7 @@ interface CharacterItemProps {
 }
 const CharacterItem = ({ item }: CharacterItemProps) => {
   return (
-    <div className="bg-grey-500 relative flex h-[400px] w-[20%] flex-col rounded-lg bg-gray-600">
+    <div className="bg-grey-500 relative flex h-[400px] flex-col rounded-lg bg-gray-600 sm:mx-28 sm:w-[100%] md:mx-0 md:w-[20%]">
       <div className="relative h-[40%] w-full">
         <Image className="rounded-t-lg" src={item.image} alt="" fill />
       </div>
